@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    gap: 20px; /* space between elements */
+}
+
+.content-box {
+    width: 200px;          /* Width of the element */
+    height: 100px;        /* Height of the element */
+    padding: 20px;        /* Padding inside the element */
+    border: 5px solid black; /* Border around the element */
+    box-sizing: border-box; /* Default value */
+    background-color: lightblue;
+}
+
+.border-box {
+    width: 200px;          /* Width of the element */
+    height: 250px;        /* Height of the element */
+    padding: 20px;        /* Padding inside the element */
+    border: 5px solid black; /* Border around the element */
+    box-sizing: border-box; /* Set to border-box */
+    background-color: lightcoral;
+}

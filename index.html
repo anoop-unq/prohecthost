@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Signup Animation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+     
+        <div class="signup-center">
+            <div class="signup">
+                <h2 class="signup-text">Sign up</h2>
+                <input type="text" name="username" placeholder="Enter Username" id="newUser">
+                <input type="number" id="mobile" name="mobile"  maxlength="10" oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);" placeholder="Enter Your Number !" required> 
+                <input type="email" name="email" id="mail" placeholder="Enter Your Mail">
+                <input type="password" name="password" id="password" placeholder="Enter New Password">
+                <input type="password" name="confirmpassword" id="confirmpassword" placeholder="Re-enter confirm Password">
+                <button id="buttonSignup" onclick="onButton()">Signup</button>
+                    <a href="anvesh.html">
+                        <p class="para">Already have an account?
+                        <span class="switch">Login</span></p>
+                    </a> 
+                    <a href="ex.html">
+                        <button class="btn" id="buttonBack">Back</button>
+                    </a> 
+                </div>
+            </div>        
+      <script src="script.js"></script>
+</body>
+</html>
