@@ -1,0 +1,116 @@
+/* Base styling */
+
+.signup-center{
+    background-image: url('pexels-photo-1743165.jpeg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signup {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    box-shadow: 0px 0px 2px 1px rgb(152, 224, 250);
+}
+.para {
+    color: rgb(255, 255, 255);
+    font-size: 1.3em;
+    font-weight: 750;
+}
+#newUser {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#password {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+.signup {
+    background: transparent;    
+}
+.signup-text {
+    font-size: 35px;
+    color: rgb(0, 8, 255);
+    font-weight: 150;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input {
+    margin: 10px;
+    padding: 7px;
+    width: 80%;
+    border-radius: 7px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    border-width: 0px;
+    outline-color: #ff0080;
+    border-style: solid;
+    border-color: none;
+    font-size: 21px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.btn {
+    background: #1100ff;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 5vh;
+    width: 85px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 3px #00ff22;
+    transition: transform 0.3s ease-in-out;
+}
+button {
+    background: #ff5722;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 5vh;
+    width: 85px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    box-shadow: 0px 0px 11px 3px rgb(0, 241, 133);
+    transition: transform 0.3s ease-in-out;
+}
+button:hover {
+    transform: scale(1.1);
+}
+
+btn:hover {
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+}
+.switch{
+    position: relative;
+    font-size: 25px;
+    color: rgb(0, 251, 255);
+    text-decoration: none;
+}
+.switch::after{
+    position: absolute;
+    content: '';
+    background-color: #ff0000;
+    height: 2px;
+    left: 0;
+    cursor: pointer;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.switch:hover::after {
+    width: 100%;
+}
+
